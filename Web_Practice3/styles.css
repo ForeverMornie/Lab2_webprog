@@ -1,16 +1,32 @@
+main{
+    font-family: cursive;
+    align-items: center;
+}
+body{
+    font-family: cursive;
+        background-image: url(homee.jpg);
+        backdrop-filter: blur(4px);
+       
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        margin: 0;
+}
 header {
-    background-color: #6e0202;
+    font-family: cursive;
+    background-color: rgb(176, 47, 0);
+    border-radius: 15px;
+    border: 3px solid yellow;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
     
-body {
 
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
    
 
 }
@@ -19,16 +35,15 @@ body {
     margin-right: 20px;
 }
 
-article{
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
+
 footer{
+    font-family: cursive;
     display: flex;
     justify-content: center;
     padding: 5px;
-    background-color: black;
+    background-color: rgb(176, 47, 0);
+    border-radius: 15px;
+    border: 3px solid yellow;
     color: #fff;
 }
 .button {
@@ -45,6 +60,7 @@ footer{
 }
 
 section {
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -54,4 +70,30 @@ article {
     background-color: #f4f4f4;
     padding: 15px;
     border-radius: 5px;
+}
+div{
+
+    text-align: center;
+}
+.textbox{
+
+    position: center;
+    font-family: cursive;
+    width: 300px; /* Ширина блока */
+    height: 200px; /* Высота блока */
+    background-color: black; /* Чёрный фон */
+    color: white; /* Белый текст */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden; 
+    margin-left: 70px;
+}
+.img{
+    align-items: center;
 }
